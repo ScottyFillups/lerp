@@ -1,9 +1,12 @@
 require "./spec_helper"
 
-describe Lerp do
-  # TODO: Write tests
+include Lerp
 
-  it "works" do
-    false.should eq(true)
+describe Lerp do
+  it "should provide correct results" do
+    lerp(0, 1, 0).should eq(0)
+    lerp(100, 0, 0.5).should eq(50)
+    lerp(100, 0, 1).should eq(0)
+    lerp(0, 100, 0.23).should eq(23)
   end
 end
