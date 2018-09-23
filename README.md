@@ -1,5 +1,7 @@
 # lerp
 
+[![Build Status](https://travis-ci.com/ScottyFillups/lerp.svg?token=EyYZzyyJzqpqFn6Jv9Yx&branch=master)](https://travis-ci.com/ScottyFillups/lerp)
+
 A vanilla lerp function, 'nuff said.
 
 ## Installation
