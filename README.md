@@ -23,6 +23,9 @@ include Lerp
 
 # Prints 23
 puts lerp(0, 100, 0.23)
+
+# Prints 59
+puts lerp(25, 75, 0.68).as(Int32)
 ```
 
 The `include Lerp` isn't necessary, just be aware your function calls will be `Lerp::lerp(...)`
